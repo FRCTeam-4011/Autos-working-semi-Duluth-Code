@@ -18,14 +18,15 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 public class ArmSubsystem extends SubsystemBase {
   /** Creates a new ArmSubsystem. */
   private static CANSparkFlex armMotor;
-  private  RelativeEncoder armEncoder;
+  private RelativeEncoder armEncoder;
+
   public ArmSubsystem() {
     armMotor = new CANSparkFlex(18, MotorType.kBrushless);
     armMotor.setIdleMode(IdleMode.kBrake);
     armMotor.setInverted(false);
     armMotor.setSmartCurrentLimit(80);
     armMotor.setSoftLimit(SoftLimitDirection.kForward, 0.0f);
-    armMotor.setSoftLimit(SoftLimitDirection.kReverse, -19.22f);
+    armMotor.setSoftLimit(SoftLimitDirection.kReverse, -22.068f);
     armMotor.enableSoftLimit(SoftLimitDirection.kForward, true);
     armMotor.enableSoftLimit(SoftLimitDirection.kReverse, true);
     armMotor.burnFlash();

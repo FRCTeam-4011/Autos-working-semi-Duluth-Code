@@ -27,12 +27,12 @@ public class VoltageConstants {
     public static final double vk_BottomShooterSub = 0.0;
 
     // Shooter From Podium
-    public static final double vk_TopShooterPodium = 0.0;
-    public static final double vk_BottomShooterPodium = 0.0;
+    public static final double vk_TopShooterPodium = 8.0;
+    public static final double vk_BottomShooterPodium = 8.0;
 
     // Shooter for Amp
-    public static final double vk_TopShooterAmp = 1.5;
-    public static final double vk_BottomShooterAmp = 1.5;
+    public static final double vk_TopShooterAmp = 1.0;
+    public static final double vk_BottomShooterAmp = 2.8;
 
     // Shooter for Back Podium
     public static final double vk_TopShooterMax = 10.5;

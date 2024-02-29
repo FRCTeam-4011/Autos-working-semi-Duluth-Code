@@ -26,7 +26,7 @@ public class shootFromSubSCG extends SequentialCommandGroup {
     // addCommands(new FooCommand(), new BarCommand());
     addCommands(
 
-        new MoveArmToSubShotCMD(armSubsystem, VoltageConstants.vk_ArmUp).withTimeout(2), //
+        new MoveArmToSubShotCMD(armSubsystem, VoltageConstants.vk_ArmUp).withTimeout(2.5), //
         new RunShooterTimeBaseCMD(shooterSubsystem, VoltageConstants.vk_TopShooterForward,
             VoltageConstants.vk_BottomShooterForward)
             .alongWith(new RunKickerTimeBaseCMD(kickerSubsystem, VoltageConstants.vk_KickerForward)).withTimeout(3), //
