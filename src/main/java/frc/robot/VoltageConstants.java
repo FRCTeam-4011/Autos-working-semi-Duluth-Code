@@ -19,12 +19,12 @@ public class VoltageConstants {
     public static final double vk_BottomShooterForward = 8.0;
 
     // Arm
-    public static final double vk_ArmUp = -2.0;
-    public static final double vk_ArmDown = 2.0;
+    public static final double vk_ArmUp = -3.0;
+    public static final double vk_ArmDown = 3.0;
 
     // Shooter From Sub
-    public static final double vk_TopShooterSub = 0.0;
-    public static final double vk_BottomShooterSub = 0.0;
+    public static final double vk_TopShooterSub = 6.0;
+    public static final double vk_BottomShooterSub = 6.0;
 
     // Shooter From Podium
     public static final double vk_TopShooterPodium = 8.0;
